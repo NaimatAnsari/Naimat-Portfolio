@@ -55,7 +55,7 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 55%;
     overflow-x: hidden;
 }
 
@@ -111,7 +111,7 @@ body {
 
 section {
     min-height: 100vh;
-    padding: 10rem 9% 2rem;
+    padding: 8rem 9% 2rem;
 }
 
 .home {
@@ -221,7 +221,7 @@ section {
 .home-sci{
     position: absolute;
     bottom: 4rem;
-    width: 25rem;
+    width: 28rem;
     display: flex;
     justify-content: space-between;
 }
@@ -288,12 +288,12 @@ section {
     flex-direction: column;
     gap: 2rem;
     background: var(--second-bg-color);
-    padding-bottom: 6rem;
+    padding-bottom: 8rem;
 }
 
 .heading{
     font-size: 5rem;
-    margin-bottom:10rem;
+    margin-bottom:8rem;
     text-align: center;
 }
 
@@ -400,7 +400,7 @@ span{
     align-items: center;
     flex-direction: column;
     min-height: auto;
-    padding: 5rem;    
+    padding: 10rem ;    
 }
 
 .education .education-row{
@@ -996,6 +996,12 @@ button {
         width: 80%;
     }
 }  
+
+@media screen and (min-width: 1440px) and (max-width: 2560px) {
+    html{
+        font-size: 60%;
+    }
+}
 
 @keyframes homeBgText{
     0%,
